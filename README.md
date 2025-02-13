@@ -104,7 +104,7 @@ Once the server starts, the API can be accessed at:
 
 ### 3. Search for a student by name
 
-- Endpoint: `GET /get-by-name`
+- Endpoint: `GET /students/by-name`
 
 - Description: Searches for a student by name.
 
@@ -120,7 +120,7 @@ Once the server starts, the API can be accessed at:
 
 ### 4. Create a new student
 
-- Endpoint: `POST /create-student/{student_id}`
+- Endpoint: `POST /students/{student_id}`
 
 - Description: Creates a new student.
 
@@ -146,7 +146,7 @@ Once the server starts, the API can be accessed at:
 
 ### 5. Update an existing student
 
-- Endpoint: `PUT /update-student/{student_id}`
+- Endpoint: `PUT /students/{student_id}`
 
 - Description: Updates student details.
 
@@ -172,7 +172,7 @@ Once the server starts, the API can be accessed at:
 
 ### 6. Delete a student
 
-- Endpoint: `DELETE /delete-student/{student_id}`
+- Endpoint: `DELETE /students/{student_id}`
 
 - Description: Deletes a student record.
 
